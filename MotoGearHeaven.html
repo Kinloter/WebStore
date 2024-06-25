@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoGear Heaven - Dein Motorrad Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            text-align: center;
+            color: #333;
+        }
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            width: 23%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .item h3 {
+            color: #333;
+            text-align: center;
+        }
+        .item p {
+            color: #666;
+            text-align: center;
+        }
+        .item button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .item button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen bei MotoGear Heaven</h1>
+    </header>
+    <nav>
+        <a href="#helme">Helme</a>
+        <a href="#bekleidung">Bekleidung</a>
+        <a href="#zubehoer">Zubehör</a>
+        <a href="#ersatzteile">Ersatzteile</a>
+    </nav>
+    <div class="container">
+        <section id="helme" class="section">
+            <h2>Helme</h2>
+            <div class="items">
+                <div class="item">
+                    <h3>Sporthelm</h3>
+                    <p>Preis: 199,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+                <div class="item">
+                    <h3>Tourenhelm</h3>
+                    <p>Preis: 249,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+                <div class="item">
+                    <h3>Jethelm</h3>
+                    <p>Preis: 99,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+            </div>
+        </section>
+        <section id="bekleidung" class="section">
+            <h2>Bekleidung</h2>
+            <div class="items">
+                <div class="item">
+                    <h3>Lederjacke</h3>
+                    <p>Preis: 299,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+                <div class="item">
+                    <h3>Textilhose</h3>
+                    <p>Preis: 149,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+                <div class="item">
+                    <h3>Motorradhandschuhe</h3>
+                    <p>Preis: 49,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+            </div>
+        </section>
+        <section id="zubehoer" class="section">
+            <h2>Zubehör</h2>
+            <div class="items">
+                <div class="item">
+                    <h3>Topcase</h3>
+                    <p>Preis: 89,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+                <div class="item">
+                    <h3>Navihalterung</h3>
+                    <p>Preis: 29,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+                <div class="item">
+                    <h3>Motorradabdeckung</h3>
+                    <p>Preis: 39,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+            </div>
+        </section>
+        <section id="ersatzteile" class="section">
+            <h2>Ersatzteile</h2>
+            <div class="items">
+                <div class="item">
+                    <h3>Bremsscheiben</h3>
+                    <p>Preis: 59,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+                <div class="item">
+                    <h3>Kettenkit</h3>
+                    <p>Preis: 79,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+                <div class="item">
+                    <h3>Motorradreifen</h3>
+                    <p>Preis: 109,99 CHF</p>
+                    <button>Kaufen</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 MotoGear Heaven. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
